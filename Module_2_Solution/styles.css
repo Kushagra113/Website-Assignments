@@ -1,3 +1,5 @@
+/********************* Base Styles *****************/
+
 *{
     box-sizing: border-box;
 }
@@ -10,3 +12,60 @@ h1{
     margin: auto;
 }
 
+.content{
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    background-color: lightgray;
+    clear: right;
+    font-size: 1.1em;
+}
+
+.content h2{
+    float: right;
+    margin:auto;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.content p{
+    clear: both;
+    padding: 0px 5px 5px 15px;
+}
+
+/******************* For Large Devices *********************/
+
+@media (min-width:992px){
+
+    .col-lg-3{
+        float: left;
+        width: 33.33%;
+    }
+
+}
+
+/****************** For Medium Devices ************************/
+
+@media (min-width:768px) and (max-width:991px){
+
+    .col-md-6{
+        float: left;
+        width: 50%;
+    }
+    .col-md-12{
+        float: left;
+        width: 100%;
+    }
+}
+
+/*********************For Small Devices ***********************/
+
+@media (max-width:767px){
+
+    .col-sm-12{
+        float: left;
+        width: 100%;
+    }
+}
