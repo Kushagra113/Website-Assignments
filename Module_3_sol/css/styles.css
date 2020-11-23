@@ -1,83 +1,38 @@
-/********************* Base Styles *****************/
-
-*{
-    box-sizing: border-box;
-}
 body {
+    padding-bottom: 30px;
     font-family: 'Baloo Da 2', cursive;
-}
+  }
+ /********START OF NAVIGATION STYLES**************/
+  #menu a{
+      font-size: 1.3em;
+      color: white;
+      background-color: black;
+  }
+  #menu a:hover{
+      background-color: white;
+      color: black;
+  }
+  .navbar{
+      background-color: black;
+  }
+  .navbar-default .navbar-brand {
+      color: white;
+  }
+  .navbar-default .navbar-brand:hover{
+      color: white;
+  }
+ /**********END OF NAVIGATION STYLE ************/
+  /***********START OF Main Content Styles******* */
 
-h1{
-    width: 150px;
-    margin: auto;
-}
-
-.content{
-    width: auto;
-    margin: 10px;
-    border: 2px solid black;
-    margin-bottom: 15px;
-    background-color: lightgray;
-    clear: right;
-    font-size: 1.1em;
-}
-
-.content h2{
-    float: right;
-    margin:auto;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 10px;
-}
-
-.content p{
-    clear: both;
-    padding: 0px 5px 5px 15px;
-}
-
-#chicken{
-    background-color:rgb(235, 168, 179);
-}
-
-#beef{
-    background-color: red;
-}
-
-#sushi{
-    background-color:   rgb(255, 217, 0);
-}
-
-/******************* For Large Devices *********************/
-
-@media (min-width:992px){
-
-    .col-lg-3{
-        float: left;
-        width: 33%;
-    }
-
-}
-
-/****************** For Medium Devices ************************/
-
-@media (min-width:768px) and (max-width:991px){
-
-    .col-md-6{
-        float: left;
-        width: 50%;
-    }
-    .col-md-12{
-        float: left;
-        width: 100%;
-    }
-}
-
-/*********************For Small Devices ***********************/
-
-@media (max-width:767px){
-
-    .col-sm-12{
-        float: left;
-        width: 100%;
-    }
-}
+  #main-content {
+    background-color: rgb(150, 150, 150);
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  #main-content p{
+      margin-top: 20px;
+      padding: 2px;
+      font-size: 1.3em;
+  }
+   /***********End OF Main Content Styles********/
