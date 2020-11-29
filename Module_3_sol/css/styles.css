@@ -12,23 +12,32 @@ body {
       background-color: white;
       color: black;
   }
+
   .navbar{
       background-color: black;
   }
   .navbar-default .navbar-brand {
       color: white;
+      /*  */
   }
+  .navbar-brand{
+    margin-left: 20px;
+  }
+
   .navbar-default .navbar-brand:hover{
       color: white;
   }
- /**********END OF NAVIGATION STYLE ************/
-  /***********START OF Main Content Styles******* */
+/**********END OF NAVIGATION STYLE ************/
+/***********START OF Main Content Styles******* */
 
   #main-content {
-    background-color: rgb(150, 150, 150);
+    /* background-color: rgb(150, 150, 150); */
     color: black;
     margin-bottom: 20px;
     margin-top: 30px;
+  }
+  .content{
+    background-color: rgb(150, 150, 150);
   }
   #main-content p{
       margin-top: 20px;
